@@ -2,11 +2,12 @@ package main
 
 import (
 	"log"
-	 tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
 func main() {
-	token := "8454155765:AAGrrIfFL7H35B3IbKWQPNNp9uSCaudHGhE"
+	token := ""
 	appURL := ""
 
 	bot, err := tgbotapi.NewBotAPI(token)
